@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>	`		
+<body>
+    <center>	
+        <header>
+            <div class="form1">
+                <form>
+                    <h1>Login Form</h1>
+                    
+                    <label>Username <i class="fa fa-user"></i></label>
+                    <input type="text" id="un" placeholder="Enter Username">
+                    <br><br>
+                    
+                    <label>Password <i class="fa fa-lock"></i></label>
+                    <input type="password" id="pwd" placeholder="Enter Password">
+                    <br><br>
+                    
+                    <label>Date of Birth</label>
+                    <input type="date" id="dob">
+                    <br><br>
+                    
+                    <label>Email <i class="fa fa-envelope"></i></label>
+                    <input type="email" id="email">
+                    <br><br>
+                    
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember me</label>
+                    <br><br>
+                    
+                    <input type="submit" value="Submit" onclick="return validateForm()">
+                    <br><br>
+                    
+                    <p id="result"></p>
+                </form>
+            </div>
+        </header>
+    </center>
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
